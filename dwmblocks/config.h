@@ -4,13 +4,13 @@ static const Block blocks[] = {
 	{"",	"sb-music",	0,	11},
 	{"",	"sb-pacpackages",	0,	8},
 	{"",	"sb-news",		0,	6},
-	{"",	"sb-price eth Ethereum 🍸",	9000,	23},
-	{"",	"sb-doppler",	180,	17},
+	{"",	"sb-price eth Ethereum 🍸",	90,	23},
 	{"",	"sb-forecast",	180,	5},
 	{"",	"sb-mailbox",	180,	12},
+	{"",	"sb-nettraf",	1,	16},
 	{"",	"sb-volume",	0,	10},
 	{"",	"sb-battery",	5,	3},
-	{"",	"sb-clock",	60,	1},
+	{"",	"sb-clock",	1,	1},
 	{"",	"sb-internet",	5,	4},
 };
 
@@ -21,4 +21,3 @@ static char *delim = " ";
 // vim with the following line in your vimrc/init.vim:
 
 // autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
-
